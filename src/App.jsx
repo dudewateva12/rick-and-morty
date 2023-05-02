@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Homepage from './pages/Homepage/Homepage'
 import Episodes from './pages/Episodes/Episodes'
 import About from './pages/About/About'
+import CharacterDetails from './pages/CharacterDetails/CharacterDetails'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +17,10 @@ function App() {
      <Routes>
       <Route path='/' element={<Homepage />} />
       <Route path='/about' element={<About />} />
-      <Route path='/' element={<Episodes />} /> 
+      <Route path='/episodes' element={<Episodes />} /> 
+      <Route path='/details/:characterId' element={<CharacterDetails />} /> 
      </Routes>
+
 
      
 
