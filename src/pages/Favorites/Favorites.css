@@ -1,0 +1,14 @@
+.favorites-container{
+    min-height: 90vh;
+}
+
+.favorites-container h1{
+    text-align: center;
+}
+
+.favorites-characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}

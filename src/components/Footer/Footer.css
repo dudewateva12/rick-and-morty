@@ -4,7 +4,10 @@
     color: var(--white);
 
 }
-
+.footer-dark{
+    background-color: black;
+    border-top: solid 1px gray;
+}
 .contact-btn{
     cursor: pointer;
     background-color: transparent;

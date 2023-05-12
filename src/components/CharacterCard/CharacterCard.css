@@ -28,3 +28,15 @@
     color: white;
     cursor: pointer;
 }
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
+
+.heart-icon{
+    columns: var(--primary-bg);
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
